@@ -40,6 +40,7 @@
 #include "AntikernelLabsOscilloscope.h"
 #include "AntikernelLogicAnalyzer.h"
 #include "DemoOscilloscope.h"
+#include "Hantek6022Oscilloscope.h"
 #include "LeCroyOscilloscope.h"
 #include "PicoOscilloscope.h"
 #include "RigolOscilloscope.h"
@@ -274,6 +275,7 @@ void DriverStaticInit()
 	AddDriverClass(AntikernelLabsOscilloscope);
 	AddDriverClass(AntikernelLogicAnalyzer);
 	AddDriverClass(DemoOscilloscope);
+  AddDriverClass(Hantek6022Oscilloscope);
 	AddDriverClass(PicoOscilloscope);
 	AddDriverClass(RigolOscilloscope);
 	AddDriverClass(RohdeSchwarzOscilloscope);
